@@ -52,14 +52,14 @@ input[type=search]{
 
 .sub-title:nth-child(2){
 	width: 30%;
-	}
+}
 
 
 .container{
 	padding: 0 10px;
 	display: flex;
 	flex-wrap: nowrap;
-		}
+}
 
 .col{
  	flex-grow:1;
@@ -70,7 +70,7 @@ input[type=search]{
  	border-radius: 5px;
  	flex-basis: 15rem;
 
-	}
+}
 
 .col div input{
 	width: 100%;
