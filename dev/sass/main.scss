@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Comfortaa;
+}
+
+body{
+	background:rgb(0, 121, 191);
+}
+
+p{
+	font-size: 1rem;
+}
+h6{
+	font-size: 1.1rem;
+}
+header{
+	background: #026AA7;
+	text-align: center;
+	padding: 1rem;
+}
+
+header span:hover{
+	opacity: 1;
+
+}
+.logo{
+    background-image: url(../img/title.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 2rem;
+    width: 8rem;
+    opacity: 0.6;
+
+}
+input[type=search]{
+	border: 1px dotted #999;
+	border-radius: 5px;
+}
+.sub-title{
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.sub-title  h3 {
+	width: 60%;
+	}
+
+.sub-title:nth-child(2){
+	width: 30%;
+}
+
+
+.container{
+	padding: 0 10px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.col{
+ 	flex-grow:1;
+ 	margin: 0 5px;
+ 	text-align: center;
+ 	background: #E2E4E6;
+ 	padding: 5px;
+ 	border-radius: 5px;
+ 	flex-basis: 15rem;
+
+}
+
+.col div input{
+	width: 100%;
+	border:none;
+	border-radius: 5px;
+
+}
+
+.Tarjeta{
+	background: white;
+    border-radius:  5PX;
+    margin:  2PX;
+    padding: 5px;
+}
+
+.header-tarj, .cont-tarj{
+	text-align: left;
+}
+.cont-tarj{
+	padding: 8px 0;
+
+}
+.footer-tarj{
+	display: flex;
+	justify-content: space-between;
+
+}
